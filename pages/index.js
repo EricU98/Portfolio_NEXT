@@ -14,7 +14,7 @@ export async function getStaticProps({ locale }) {
    };
 }
 
-function MyComponent() {
+function MyAge() {
    const { t } = useTranslation("common");
    const [age, setAge] = useState("");
 
@@ -51,5 +51,9 @@ function MyComponent() {
 }
 
 export default function Home({ props }) {
-   return <PageLayout>{/* <MyComponent /> */}</PageLayout>;
+   return (
+      <PageLayout>
+         <MyAge />{" "}
+      </PageLayout>
+   );
 }
