@@ -1,0 +1,26 @@
+{
+   "title": "Mein Portfolio",
+   "btn_skills": "Fähigkeiten",
+   "btn_projects": "Projekte",
+   "btn_contact": "Kontakt",
+   "btn_about": "Über mich",
+   "btn_thisPage": "Diese Seite",
+   "age_01": "Ich bin derzeit",
+   "age_02": "Jahre alt",
+
+   "aboutModal": {
+      "title": "Über mein",
+      "portfolio": "Portfolio",
+      "technologies": "Technologien, die in diesem Projekt verwendet wurden:",
+      "react": "Eine JavaScript-Bibliothek zur Erstellung von Benutzeroberflächen, entwickelt von Facebook.",
+      "nextjs": "Ein React-Framework, das Server Side Rendering, Static Site Generation und API-Routen ermöglicht.",
+      "nextui": "Ein umfassendes UI-Framework für Next.js, das eine Vielzahl von vordefinierten Komponenten und Styles bereitstellt.",
+      "nexti18next": "Ein Plugin für Next.js, das die Erstellung von mehrsprachigen Anwendungen erleichtert.",
+      "close": "Schließen"
+   },
+   "skills": {
+      "title_skills": "Meine Fähigkeiten",
+      "title_learning": "Was ich derzeit lerne",
+      "title_want": "Was ich lernen möchte"
+   }
+}

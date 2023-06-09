@@ -1,0 +1,22 @@
+{
+   "name": "portfolio_next",
+   "version": "1.0.0",
+   "description": "",
+   "main": "index.js",
+   "scripts": {
+      "start": "next start",
+      "dev": "next dev",
+      "build": "next build"
+   },
+   "keywords": [],
+   "author": "",
+   "license": "ISC",
+   "dependencies": {
+      "@nextui-org/react": "^1.0.0-beta.13",
+      "dayjs": "^1.11.8",
+      "next": "latest",
+      "next-i18next": "^13.3.0",
+      "react": "18.2.0",
+      "react-dom": "18.2.0"
+   }
+}

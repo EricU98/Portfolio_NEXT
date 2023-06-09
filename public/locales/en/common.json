@@ -1,0 +1,25 @@
+{
+   "title": "My Portfolio",
+   "btn_skills": "Skills",
+   "btn_projects": "Projects",
+   "btn_contact": "Contact",
+   "btn_about": "About",
+   "btn_thisPage": "This page",
+   "age_01": "I'm currently",
+   "age_02": "years old",
+   "aboutModal": {
+      "title": "About my",
+      "portfolio": "Portfolio",
+      "technologies": "Technologies used in this project:",
+      "react": "A JavaScript library for building user interfaces, developed by Facebook.",
+      "nextjs": "A React framework that allows server side rendering, static site generation and API routes.",
+      "nextui": "A comprehensive UI framework for Next.js, providing a variety of predefined components and styles.",
+      "nexti18next": "A plugin for Next.js, making the creation of multilingual applications easier.",
+      "close": "Close"
+   },
+   "skills": {
+      "title_skills": "My Skills",
+      "title_learning": "What I am currently learning",
+      "title_want": "What I want to learn"
+   }
+}
