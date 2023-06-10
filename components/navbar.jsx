@@ -32,8 +32,13 @@ export default function CustomNavbar({}) {
             <Navbar.Link href={`/${locale}/Skills`}>
                {t("btn_skills")}
             </Navbar.Link>
-            <Navbar.Link href="#">{t("btn_projects")}</Navbar.Link>
-            <Navbar.Link href="#"> {t("btn_contact")}</Navbar.Link>
+            <Navbar.Link href={`/${locale}/Projects`}>
+               {t("btn_projects")}
+            </Navbar.Link>
+            <Navbar.Link href={`/${locale}/Contact`}>
+               {" "}
+               {t("btn_contact")}
+            </Navbar.Link>
             <Navbar.Link href="#">{t("btn_about")}</Navbar.Link>
             <AboutModal />
          </Navbar.Content>
@@ -49,7 +54,13 @@ export default function CustomNavbar({}) {
                @EricU98
             </Button>
             <Navbar.Item>
-               <Button color="success" shadow auto as={Link} href="#">
+               <Button
+                  color="success"
+                  shadow
+                  auto
+                  as={Link}
+                  href="mailto:eric.uteg@web.de"
+               >
                   E-Mail
                </Button>
             </Navbar.Item>

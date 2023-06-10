@@ -1,8 +1,12 @@
 import PageLayout from "../../components/PageLayout";
 import { useTranslation } from "next-i18next";
 import { Text, Row, Spacer, Col, Progress, Grid } from "@nextui-org/react";
-import Skills from "../../components/skills";
-
+import {
+   CurrentSkills,
+   LearningSkills,
+   WantToLearnSkills,
+} from "../../components/skills";
+import styles from "./skills.module.css";
 import { serverSideTranslations } from "next-i18next/serverSideTranslations";
 
 export async function getStaticProps({ locale }) {
@@ -19,13 +23,24 @@ export default function Home({ props }) {
    return (
       <PageLayout>
          <Row justify="space-around">
-            <Col span={8} css={{ margin: "0.5rem" }}>
+            <Col
+               className={styles.skillContainer}
+               span={8}
+               css={{ margin: "0.5rem" }}
+            >
                <Text h2>{t("skills.title_skills")}</Text>
-               <Skills />
+               <CurrentSkills />
             </Col>
             <Col span={8} css={{ margin: "0.5rem" }}>
-               <Text h2>{t("skills.title_learning")}</Text>
-               <Text h2>{t("skills.title_want")}</Text>
+               <div className={styles.skillContainer}>
+                  <Text h2>{t("skills.title_learning")}</Text>
+                  <LearningSkills />
+               </div>
+               <Spacer y={1} />
+               <div className={styles.skillContainer}>
+                  <Text h2>{t("skills.title_want")}</Text>
+                  <WantToLearnSkills />
+               </div>
             </Col>
          </Row>
       </PageLayout>

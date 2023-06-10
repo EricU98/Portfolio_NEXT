@@ -6,7 +6,7 @@
    "btn_about": "Über mich",
    "btn_thisPage": "Diese Seite",
    "age_01": "Ich bin derzeit",
-   "age_02": "Jahre alt",
+   "age_02": "Jahre alt.",
 
    "aboutModal": {
       "title": "Über mein",
@@ -21,6 +21,6 @@
    "skills": {
       "title_skills": "Meine Fähigkeiten",
       "title_learning": "Was ich derzeit lerne",
-      "title_want": "Was ich lernen möchte"
+      "title_want": "Was ich in Zukunft lernen möchte"
    }
 }

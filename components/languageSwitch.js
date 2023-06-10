@@ -13,8 +13,8 @@ export default function LanguageSwitcher() {
    return (
       <div className={styles.languageContainer}>
          <Button.Group ghost color="success">
-            <Button onClick={() => changeLanguage("de")}>DE</Button>
-            <Button onClick={() => changeLanguage("en")}>EN</Button>
+            <Button onPress={() => changeLanguage("de")}>DE</Button>
+            <Button onPress={() => changeLanguage("en")}>EN</Button>
          </Button.Group>
       </div>
    );

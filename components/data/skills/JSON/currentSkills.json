@@ -1,0 +1,42 @@
+{
+   "cSharp": {
+      "name": "C# (WPF, WinForms, ASP.NET Core)",
+      "value": 90,
+      "color": "success"
+   },
+   "html": {
+      "name": "HTML ",
+      "value": 95,
+      "color": "primary"
+   },
+   "css": {
+      "name": "CSS ",
+      "value": 40,
+      "color": "error"
+   },
+   "js": {
+      "name": "JavaScript ",
+      "value": 85,
+      "color": "warning"
+   },
+   "react": {
+      "name": "React (Next.js)",
+      "value": 60,
+      "color": "secondary"
+   },
+   "next": {
+      "name": "Bootstrap ",
+      "value": 90,
+      "color": "secondary"
+   },
+   "node": {
+      "name": "Node.js ",
+      "value": 90,
+      "color": "success"
+   },
+   "sql": {
+      "name": "Datenbanken (MS SQL, MySQL)",
+      "value": 90,
+      "color": "success"
+   }
+}

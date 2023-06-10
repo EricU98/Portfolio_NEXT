@@ -1,0 +1,57 @@
+{
+   "project_01": {
+      "name": "Portfolio",
+      "title": "Portfolio",
+      "altText": "Portfolio",
+      "description": "This is my portfolio website. It is a single page application built with React. It is hosted on AWS S3 and CloudFront.",
+      "link": "",
+      "linkDesc": "View on GitHub",
+      "demoLink": "https://www.google.com",
+      "demoLinkDesc": "View Demo",
+      "color": "success"
+   },
+   "project_02": {
+      "name": "Portfolio",
+      "title": "Portfolio",
+      "altText": "Portfolio",
+      "description": "This is my portfolio website. It is a single page application built with React. It is hosted on AWS S3 and CloudFront.",
+      "link": "",
+      "linkDesc": "View on GitHub",
+      "demoLink": "https://www.google.com",
+      "demoLinkDesc": "View Demo",
+      "color": "success"
+   },
+   "project_03": {
+      "name": "Portfolio",
+      "title": "Portfolio",
+      "altText": "Portfolio",
+      "description": "This is my portfolio website. It is a single page application built with React. It is hosted on AWS S3 and CloudFront.",
+      "link": "",
+      "linkDesc": "View on GitHub",
+      "demoLink": "https://www.google.com",
+      "demoLinkDesc": "View Demo",
+      "color": "success"
+   },
+   "project_04": {
+      "name": "Portfolio",
+      "title": "Portfolio",
+      "altText": "Portfolio",
+      "description": "This is my portfolio website. It is a single page application built with React. It is hosted on AWS S3 and CloudFront.",
+      "link": "",
+      "linkDesc": "View on GitHub",
+      "demoLink": "https://www.google.com",
+      "demoLinkDesc": "View Demo",
+      "color": "success"
+   },
+   "project_05": {
+      "name": "Portfolio",
+      "title": "Portfolio",
+      "altText": "Portfolio",
+      "description": "This is my portfolio website. It is a single page application built with React. It is hosted on AWS S3 and CloudFront.",
+      "link": "",
+      "linkDesc": "View on GitHub",
+      "demoLink": "https://www.google.com",
+      "demoLinkDesc": "View Demo",
+      "color": "success"
+   }
+}

@@ -1,0 +1,17 @@
+{
+   "nextui": {
+      "name": "NextUI",
+      "value": 80,
+      "color": "secondary"
+   },
+   "nextauth": {
+      "name": "NextAuth",
+      "value": 30,
+      "color": "secondary"
+   },
+   "python": {
+      "name": "Python",
+      "value": 30,
+      "color": "warning"
+   }
+}
